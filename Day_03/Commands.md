@@ -27,9 +27,11 @@ You can use these options to customize the output based on the specific informat
 
 The whoami command prints the effective username of the current user. It is useful when you want to quickly determine the username associated with the current session.
 
-5. which 
-6.  id 
-7.  Sudo 
+5. which  :- The which command is used to locate the executable file associated with a given command. When you run which followed by a command, it displays the path of the executable file that will be executed when you run that command.
+
+6.  id :- The id command in Unix-like operating systems is used to display information about the user and group associated with the current process or a specified username or user ID.
+
+7.  Sudo :- 
 8. shutdown 
 9. reboot 
 10. apt 
