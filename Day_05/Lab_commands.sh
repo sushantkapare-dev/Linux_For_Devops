@@ -46,5 +46,8 @@ grep -i INFO app.log
 # count fing in log file for INFO word
 grep -i -c INFO app.log
 
+ps aux | grep ubuntu
+
+
 
 
