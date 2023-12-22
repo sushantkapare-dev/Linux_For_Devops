@@ -26,4 +26,25 @@ awk 'NR >=2 && NR <=10 {print NR}' app.log
 # change INFO to LOG keyword globaly in file app.log
 sed 's/INFO/LOG/g' app.log
 
+# showing the line no INFO keyword present
+sed -n -e '/INFO/=' app.log
+
+# showing the line no  INFO keyword present also where it is
+sed -n -e '/INFO/='  -e '/INFO/p' app.log
+
+
+sed '1,15 s/INFO/LOG/g' app.log
+
+sed '1,15 s/INFO/LOG/g: 1,10p: 11q' app.log
+
+
+**GREP**, which stands for Global Regular Expression Print, is a powerful command-line tool used in Unix and Unix-like operating systems for searching and manipulating text patterns. It allows users to search through files and output lines that match a specified pattern or regular expression. GREP is widely used for tasks such as text searching, pattern matching, and filtering.
+
+# case insensitive
+grep -i INFO app.log
+
+# count fing in log file for INFO word
+grep -i -c INFO app.log
+
+
 
