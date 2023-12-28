@@ -1,4 +1,4 @@
-**1. ping** :- ping: Test the reachability of a host on a network by sending ICMP echo request packets and waiting for replies.
+**1. ping** :- Test the reachability of a host on a network by sending ICMP echo request packets and waiting for replies.
 
 **2. Netstat** :- The `netstat` command in Linux is a versatile network utility used for displaying and analyzing various network-related information. When executed without specific options, it provides a comprehensive list of network statistics, including active network connections, routing tables, interface statistics, masquerade connections, and more. It allows users to examine open ports, view established connections, and identify listening ports, providing valuable insights into network activity. `netstat` is a powerful tool for network administrators, helping them troubleshoot network issues, monitor network performance, and identify potential security concerns. By displaying a snapshot of the current network status, `netstat` aids in understanding the flow of data within a system, making it an essential command for managing and maintaining network infrastructure.
 
