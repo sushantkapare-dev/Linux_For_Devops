@@ -6,17 +6,9 @@
 
 **4. Traceroute vs tracepath** :-
 
-**traceroute:**
+**traceroute:** :- Determine the route that packets take to reach a destination by sending packets with gradually increasing Time to Live (TTL) values and noting the intermediate hosts.
 
-Usage: traceroute is a widely used command on various Unix-like operating systems, including Linux.
-Functionality: It sends packets with increasing Time-to-Live (TTL) values and observes the ICMP "Time Exceeded" responses from intermediate routers, revealing the path taken by packets to reach the destination.
-Output: Typically provides detailed information about each hop, including round-trip times (RTT) and the IP addresses of routers along the path.
-
-**tracepath:**
-
-Usage: tracepath is a command that is commonly found in Linux distributions.
-Functionality: Similar to traceroute, it traces the route to a destination but uses User Datagram Protocol (UDP) packets rather than ICMP. It also doesn't require superuser privileges, making it more accessible for regular users.
-Output: Presents a simplified output, showing the number of hops, the round-trip time to each hop, and the IP address of the target.
+**tracepath:** :- A simplified version of traceroute that provides the route packets take to reach a destination, displaying IP addresses of intermediate routers along the path
 
 **5. mtr** :- `mtr` (My TraceRoute) is a powerful and interactive network diagnostic tool for Linux that combines the functionalities of both `traceroute` and `ping`. It continuously monitors and displays the route, latency, and packet loss between your system and a destination IP address or hostname in real-time. Unlike traditional traceroute, `mtr` provides ongoing statistics, allowing users to identify and analyze network issues more effectively. Its dynamic and user-friendly interface provides a comprehensive view of network performance, making it an invaluable tool for troubleshooting connectivity problems and optimizing network paths.
 
