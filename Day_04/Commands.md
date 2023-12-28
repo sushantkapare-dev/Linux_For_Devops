@@ -34,3 +34,16 @@
 
 **16. ifplugstatus** :- Check the link status of network interfaces, indicating whether a cable is plugged in or unplugged, on Linux systems.
 
+**17. watch** :- Execute a command periodically and display the output in real-time, allowing continuous monitoring of command results on the terminal.
+
+**18. wget** :- Retrieve files from the web using the command line, supporting various protocols such as HTTP, HTTPS, and FTP.
+
+**19. curl** :- Command-line tool for transferring data with URLs, supporting various protocols like HTTP, HTTPS, FTP, and providing a wide range of features, including file uploads and downloads.
+
+**20. iptables** :- Configure and manage packet filtering rules in the Linux kernel's netfilter framework, controlling network traffic and implementing firewall functionality.
+
+**21. nmap** :- Network exploration and security auditing tool that discovers hosts and services on a computer network, thus creating a map of the network's structure.
+
+**22. route** :- Display or manipulate the IP routing table on Unix-like operating systems, showing the routing information used by the kernel to determine the next hop for network packets.
+
+
